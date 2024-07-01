@@ -1,0 +1,267 @@
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .mainLeft{
+    flex: 0 0 14.5%;
+  }
+  .mainRight{
+    background: linear-gradient(180deg, rgba(215, 199, 244, 0.2) 0%, rgba(151, 133, 186, 0.2) 100%);
+    flex: 1 1 auto;
+    height: 100%;
+
+    align-items: normal;
+  }
+  
+  .navMain{
+    background: #D7C7F4;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navMain :nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  
+  }
+  .navMain :nth-child(3){
+    cursor: pointer;
+  }
+  
+  .navMain h2{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+    text-align: left;
+    color: #000;
+    margin-right: 20px;
+  }
+  .btn{
+    background-color: #D7C7F4;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.38px;
+    text-align: left;
+    color: #414146;
+    width: 175.16px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .navTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navMain{
+    background: #D7C7F4;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navMain :nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  
+  }
+  .navMain :nth-child(3){
+    cursor: pointer;
+  }
+  
+  .navMain h2{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+    text-align: left;
+    color: #000;
+    margin-right: 20px;
+  }
+  .btn{
+    background-color: #D7C7F4;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.38px;
+    text-align: left;
+    color: #414146;
+    width: 175.16px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .navTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    min-height: 100vh;
+  }
+  .imgMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgMain img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+  }
+  .mainPage h1{
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32.17px;
+    text-align: center;
+    color: #000;
+  }
+  .mainPage h2{
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 700;
+    color: #9785BA;
+    padding-left: 30px;
+  }
+  
+  .question{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .question .queInner{
+    flex: 0 0 43%;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px #00000026;
+    margin: 2%;
+    width: 514px;
+    height: 111px;
+    border-radius: 5px;
+    padding-left: 30px;
+  }
+  
+  .question .queInner h3{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    
+  }
+  
+  .question .queInner p{
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .historyItem{
+    margin: 30px;
+   background-color: rgba(215, 199, 244, 0.13);
+   border-radius: 20px;
+   box-shadow: 0px 4px 10px 0px #00000026;
+   padding: 10px;
+  
+  }
+  .historyItem p{
+    line-height: 30px;
+  }
+  .historySection img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .profileDisplay{
+    display:  flex;
+    align-items: center;
+  }
+
+  .feedbackMain{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .feedbackMain button{
+    background-color: transparent;
+    border: none;
+  }
+  .feedbackMain button img{
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+  .feedbackBtn{
+    background-color: #D7C7F4;
+    padding: 10px;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .feedbackImg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  textarea{
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .mainSearch{
+    margin-bottom: 20px;
+  }
+  .mainSearch input{
+    width: 846.09px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);  
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    margin-left: 20px;  
+    margin-right: 20px;
+  }
+  .mainSearch button{
+    width: 73.82px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: rgba(215, 199, 244, 1);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    border: none;
+    margin-right: 20px;
+  }
